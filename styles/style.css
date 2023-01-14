@@ -1,0 +1,179 @@
+/* Extra Style */
+
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans&display=swap');
+
+* {
+    font-family: 'Work Sans', sans-serif;
+
+}
+
+.btn-primary {
+    height: 64px;
+    font-weight: 700;
+    font-size: 20px;
+    color: #fff;
+    border: 0;
+    padding: 18px 36px;
+    background: #FD6E0A;
+    border-radius: 5px;
+}
+
+.main-title {
+    font-weight: 700;
+    font-size: 64px;
+    color: #131313;
+}
+
+.sub-title {
+    font-weight: 700;
+    font-size: 40px;
+    color: #131313;
+    margin: 5px 0px;
+}
+
+p {
+    font-weight: 400;
+    font-size: 16px;
+    color: #727272;
+}
+
+
+/* header style */
+.header {
+    background-color: #FF900E1A;
+    padding: 50px 250px;
+}
+
+.nav-bar {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.head-title {
+    font-weight: 700;
+    font-size: 45px;
+    color: #131313;
+}
+
+nav ul {
+    display: flex;
+    align-items: center;
+    margin-top: 50px;
+}
+
+nav ul li {
+    list-style: none;
+    margin-left: 50px;
+
+}
+
+nav ul li a {
+    font-weight: 500;
+    font-size: 18px;
+    color: #424242;
+    text-decoration: none;
+}
+
+/* nav section end */
+
+.banner {
+    text-align: center;
+}
+
+.banner-dascription {
+    margin-bottom: 50px;
+}
+
+.banner img {
+    width: 100%;
+}
+
+/* header style end */
+
+
+/* main style start  */
+.future-1 {
+    margin: 100px 300px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 50px;
+
+}
+
+.album {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 25px;
+}
+
+.album img {
+    width: 100%;
+}
+
+.future-dascription {}
+
+.span-1 {
+    font-weight: 500;
+    color: #727272;
+}
+
+.span-2 {
+    color: #FF900E;
+}
+
+.future-2 {
+    margin: 100px 150px;
+    display: flex;
+    gap: 50px;
+}
+
+.future-2 .sub-title {
+    border-left: #FF900E solid 5px;
+    padding-left: 20px;
+
+}
+
+.plan-dascription {
+    width: 50%;
+}
+
+.plan-box {
+    padding: 30px;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 30px rgba(0, 0, 0, 0.06);
+    border-radius: 8px;
+    margin: 25px 0px;
+
+}
+.plan-image{
+    width: 60%;
+}
+
+.plan-image .relative {
+    padding-left: 70px;
+}
+
+.plan-image .absolute {
+    position: relative;
+    top: -100px;
+}
+
+.plan-image img {
+    width: 100%;
+
+}
+
+.btn-secondary {
+    height: 200px;
+    color: #fff;
+    border: 0;
+    padding: 18px 36px;
+    background: #FF900E;
+    border-radius: 8px;
+}
+
+.span-3 {
+    font-weight: 700;
+    font-size: 65px;
+}
